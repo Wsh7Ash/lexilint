@@ -1,0 +1,37 @@
+{
+  "C1": {
+    "passed": true,
+    "fixed": [
+      "LL201",
+      "LL202",
+      "LL206"
+    ],
+    "behavior_ok": true
+  },
+  "C2": {
+    "passed": true,
+    "fixed": [
+      "LL203",
+      "LL204"
+    ],
+    "behavior_ok": true
+  },
+  "C3": {
+    "passed": true,
+    "fixed": [
+      "LL102",
+      "LL205",
+      "LL206"
+    ],
+    "behavior_ok": true
+  },
+  "C4": {
+    "passed": true,
+    "fixed": [
+      "LL101",
+      "LL102",
+      "LL206"
+    ],
+    "behavior_ok": true
+  }
+}

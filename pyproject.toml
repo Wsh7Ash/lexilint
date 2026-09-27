@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lexilint"
+version = "1.0.0"
+description = "Learn linting by fixing deliberately flawed Python: explained rules, graded challenges, behavior-preserving fixes"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Wsh7Ash" }]
+keywords = ["linter", "learning", "education", "static-analysis", "python"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Education",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Education :: Testing",
+  "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.scripts]
+lexilint = "lexilint.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Wsh7Ash/lexilint"
+
+[tool.setuptools.packages.find]
+where = ["src"]
